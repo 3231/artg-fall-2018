@@ -1,4 +1,10 @@
 .main{
-	width:900px;
+	width:500px;
 	margin:auto;
+}
+.block-yellow{
+	background:yellow;
+}
+.group rect{
+	stroke: green;
 }

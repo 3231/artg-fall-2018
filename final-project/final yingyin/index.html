@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>yingyin xu</head>
+		<meta charset='utf-8'>
+		<link href='../../lib/bootstrap/css/bootstrap.min.css' rel='stylesheet' />
+		<link href='./style.css' rel='stylesheet' />
+	</head>
+	<body>
+		<div class='container'>
+			<h1> Country by Year 2000 To 2017</h1>
+			<nav>
+					<ul class='nav'>
+						<li class='nav-item'><a class='btn btn-primary' style='background-color:MediumSeaGreen' href='#The Population & GDP'>The Population & GDP</a></li>
+						<li class='nav-item'><a class='btn btn-primary' style='background-color:DodgerBlue' href='#The Five Top Population'>The Five Top Population</a></li>
+					</ul>
+				</nav>
+				</header>
+			<section id='The Population & GDP'>
+			<div style='margin: 10px 0'>
+			 <select class="custom-select" id='select-menu'>
+			  	<option value='1'>Year 2000</option>
+			  	<option value='2'>Year 2001</option>
+			  	<option value='3'>Year 2002</option>
+			  	<option value='4'>Year 2003</option>
+			  	<option value='5'>Year 2004</option>
+			  	<option value='6'>Year 2005</option>
+			  	<option value='7'>Year 2006</option>
+			  	<option value='8'>Year 2007</option>
+			  	<option value='9'>Year 2008</option>
+			  	<option value='10'>Year 2009</option>
+			  	<option value='11'>Year 2010</option>
+			  	<option value='12'>Year 2011</option>
+			  	<option value='13'>Year 2012</option>
+			  	<option value='14'>Year 2013</option>
+			  	<option value='15'>Year 2014</option>
+			  	<option value='16'>Year 2015</option>
+			  	<option value='17'>Year 2016</option>
+			  	<option value='18'>Year 2017</option>
+			  </select>
+			</div>
+            <div class='plot' id='plot' style='height:600px ; background:lightgrey'></div>
+			</div>
+
+			<section id='The Five Top Population'>
+			<div style='margin: 10px 0'>
+			  <select class="custom-select" id='select-menu'>
+			  	<option value='1'>country WLD</option>
+			  	<option value='2'>country MIC</option>
+			  	<option value='3'>country IBD</option>
+			  	<option value='4'>country LMY</option>
+			  	<option value='5'>country IBT</option>
+			</select>
+			</div>
+          <div class='chart' id='chart' style='height:600px'></div>
+			</div>
+		<script src='../../lib/d3/d3.min.js'></script>
+		<script src='./script.js'></script>
+	</body>
+</html>

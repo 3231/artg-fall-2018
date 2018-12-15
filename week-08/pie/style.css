@@ -1,0 +1,13 @@
+.chart{
+	height:1000px;
+}
+
+.node circle{
+	fill-opacity:.1;
+	stroke:#333;
+	stroke-width:40px;
+}
+
+.node text{
+	fill:#300;
+}
