@@ -219,6 +219,11 @@ function parseMetadata(d){
     return d;
 
 }
+git add.
+git commit -m "https://github.com/3231/yingyin-demostation.git"
+git push origin master</pre>
+
+
 
 
 
